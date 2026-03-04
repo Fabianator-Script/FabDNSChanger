@@ -68,4 +68,6 @@ Il progetto viene distribuito come:
 - Launcher `.vbs` opzionale (avvio elevato + finestra nascosta)
 - Icona personalizzata
 
+### Screenshot
 
+![Screenshot](assets/Screenshot-01.png) ![Screenshot](assets/Screenshot-02.png)
