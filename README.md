@@ -70,4 +70,5 @@ Il progetto viene distribuito come:
 
 ### Screenshot
 
-![Screenshot](assets/Screenshot-01.png) ![Screenshot](assets/Screenshot-02.png)
+<img width="426" height="600" alt="Screenshot-02" src="https://github.com/user-attachments/assets/5d110d80-1fc7-45af-8ce9-9c97f8994161" />
+<img width="426" height="600" alt="Screenshot-01" src="https://github.com/user-attachments/assets/5a4e92a1-65a3-4103-b1e3-aae37eb43921" />
