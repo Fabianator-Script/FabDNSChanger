@@ -44,10 +44,7 @@ Scegli il profilo ideale con un click (include descrizioni informative nei toolt
 Non vuoi scaricare l'intero repository? Copia e incolla questo comando in **PowerShell (come Amministratore)** per avviare la versione standalone:
 
 ```powershell
-iex (Invoke-RestMethod [https://raw.githubusercontent.com/Fabianator-Script/FabDNSChanger/main/FabDNS_Changer.ps1](https://raw.githubusercontent.com/Fabianator-Script/FabDNSChanger/main/FabDNS_Changer.ps1))
+`iex (Invoke-RestMethod https://raw.githubusercontent.com/Fabianator-Script/FabDNSChanger/main/FabDNS_Changer.ps1)`
 
-## Screenshots
-
-<img width="426" height="600" alt="Screenshot-01" src="https://github.com/user-attachments/assets/5dae5006-0cc6-461e-8b5a-fa22a0aec72b" /><img width="426" height="600" alt="Screenshot-02" src="https://github.com/user-attachments/assets/047ddfe0-5c60-4cbd-81e4-28185df75c43" />
-
-
+<img width="426" height="600" alt="Screenshot-01" src="https://github.com/user-attachments/assets/6c75a0fc-3f05-402b-8f4f-16f9f872f7c8" />
+<img width="426" height="600" alt="Screenshot-02" src="https://github.com/user-attachments/assets/0e9cc7d4-8453-40aa-95f3-6b8fc10aaa0f" />
