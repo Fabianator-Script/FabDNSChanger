@@ -45,3 +45,9 @@ Non vuoi scaricare l'intero repository? Copia e incolla questo comando in **Powe
 
 ```powershell
 iex (Invoke-RestMethod [https://raw.githubusercontent.com/Fabianator-Script/FabDNSChanger/main/FabDNS_Changer.ps1](https://raw.githubusercontent.com/Fabianator-Script/FabDNSChanger/main/FabDNS_Changer.ps1))
+
+## Screenshots
+
+<img width="426" height="600" alt="Screenshot-01" src="https://github.com/user-attachments/assets/5dae5006-0cc6-461e-8b5a-fa22a0aec72b" /><img width="426" height="600" alt="Screenshot-02" src="https://github.com/user-attachments/assets/047ddfe0-5c60-4cbd-81e4-28185df75c43" />
+
+
