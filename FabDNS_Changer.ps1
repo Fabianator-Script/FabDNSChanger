@@ -65,8 +65,14 @@ function Restore-DNS {
 }
 
 # ================== UI ==================
-$IconPath = Join-Path $PSScriptRoot "FabDNS_Changer.ico"
 
+# 1. Controllo sicuro per il percorso dell'icona (evita il crash se eseguito dal web)
+$IconPath = ""
+if ($PSScriptRoot) {
+    $IconPath = Join-Path $PSScriptRoot "FabDNS_Changer.ico"
+}
+
+# 2. Creiamo l'interfaccia con un "Placeholder" per l'icona
 $xaml = @"
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         Title="FabDNS Changer v2.0"
@@ -74,7 +80,7 @@ $xaml = @"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
         Background="#121212"
-        Icon="$IconPath">
+        Icon="PLACEHOLDER_ICON">
 
     <Grid Margin="20">
         <Border Background="#1E1E1E" CornerRadius="18">
@@ -84,7 +90,6 @@ $xaml = @"
 
             <StackPanel Margin="22">
 
-                <!-- TITOLO CON GLOW SOFT -->
                 <TextBlock Text="FabDNS Changer v2.0"
                            FontSize="30"
                            FontWeight="Bold"
@@ -134,6 +139,14 @@ $xaml = @"
 </Window>
 "@
 
+# 3. FIX: Se l'icona esiste mettiamo il percorso, altrimenti cancelliamo la riga
+if ($IconPath -and (Test-Path $IconPath)) {
+    $xaml = $xaml -replace 'PLACEHOLDER_ICON', $IconPath
+} else {
+    $xaml = $xaml -replace 'Icon="PLACEHOLDER_ICON"', ''
+}
+
+# 4. Carichiamo l'interfaccia grafica
 $UI = [System.Windows.Markup.XamlReader]::Load(
     [System.Xml.XmlReader]::Create([System.IO.StringReader]$xaml)
 )
