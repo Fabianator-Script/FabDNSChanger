@@ -1,3 +1,5 @@
+<img width="800" height="322" alt="Fab-DNS-Changer-Banner" src="https://github.com/user-attachments/assets/12185b55-8a02-416b-b819-7663cb92bf6f" />
+
 # 🛡️ FabDNS Changer v2.0
 ### *Modern, Open Source & Lightweight DNS Switcher for Windows*
 
@@ -47,3 +49,4 @@ Non vuoi scaricare l'intero repository? Copia e incolla questo comando in **Powe
 
 <img width="426" height="600" alt="Screenshot-01" src="https://github.com/user-attachments/assets/6c75a0fc-3f05-402b-8f4f-16f9f872f7c8" />
 <img width="426" height="600" alt="Screenshot-02" src="https://github.com/user-attachments/assets/0e9cc7d4-8453-40aa-95f3-6b8fc10aaa0f" />
+
