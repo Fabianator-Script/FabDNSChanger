@@ -70,7 +70,7 @@ Il progetto viene distribuito come:
 
 Oppure: Copia e incolla questo comando in PowerShell (eseguito come Amministratore) Versione ridotta, senza icona e senza launcher vbscript:
 
-iex (Invoke-RestMethod https://raw.githubusercontent.com/Fabianator-Script/FabDNSChanger/main/FabDNS_Changer.ps1)
+`iex (Invoke-RestMethod https://raw.githubusercontent.com/Fabianator-Script/FabDNSChanger/main/FabDNS_Changer.ps1)`
 
 
 ### Screenshot
