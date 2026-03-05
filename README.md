@@ -68,6 +68,11 @@ Il progetto viene distribuito come:
 - Launcher `.vbs` opzionale (avvio elevato + finestra nascosta)
 - Icona personalizzata
 
+Oppure: Copia e incolla questo comando in PowerShell (eseguito come Amministratore) Versione ridotta, senza icona e senza launcher vbscript:
+
+iex (Invoke-RestMethod https://raw.githubusercontent.com/Fabianator-Script/FabDNSChanger/main/FabDNS_Changer.ps1)
+
+
 ### Screenshot
 
 <img width="426" height="600" alt="Screenshot-02" src="https://github.com/user-attachments/assets/5d110d80-1fc7-45af-8ce9-9c97f8994161" />
