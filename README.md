@@ -1,8 +1,47 @@
-🛡️ FabDNS Changer v2.0Modern, Open Source & Lightweight DNS Switcher for WindowsBenvenuti in FabDNS Changer, la soluzione definitiva per gestire i tuoi DNS su Windows senza compromettere la sicurezza. Scritto interamente in PowerShell con una moderna interfaccia WPF, questo tool unisce la potenza del terminale alla semplicità di una GUI pulita e reattiva.[!IMPORTANT]Filosofia No-Binary: Niente file EXE, niente offuscamento, niente telemetria. Solo codice trasparente e verificabile al 100%.✨ Perché scegliere FabDNS?A differenza di molti tool "chiusi", FabDNS è pensato per chi ama sapere cosa gira sul proprio PC:🚀 UI Immediata: Interfaccia grafica moderna con caricamento asincrono delle schede di rete.👻 Invisibile: Grazie al launcher VBS opzionale, addio alle fastidiose finestre nere di PowerShell.🛡️ Sicuro: Gestione automatica dei privilegi (UAC) e pulizia della cache DNS ad ogni cambio.🎨 Design: Dark mode con effetti glow soft, icone personalizzate e layout stabile.⚡ Quick Start (One-Liner)Vuoi provarlo subito senza scaricare nulla? Apri PowerShell come Amministratore e incolla questo comando (versione standalone):PowerShelliex (Invoke-RestMethod https://raw.githubusercontent.com/Fabianator-Script/FabDNSChanger/main/FabDNS_Changer.ps1)
-🌐 DNS Network SupportateScegli il profilo più adatto alle tue esigenze con un semplice click:ProviderFocus PrincipalePerché usarlo?Cloudflare⚡ VelocitàIl top per latenza minima e privacy.Google🌍 StabilitàUltra-affidabile e compatibile ovunque.Google + Cloudflare🏆 IbridoConsigliato. Il perfetto equilibrio tra i due giganti.Quad9🔒 SicurezzaBlocca malware e phishing alla radice.AdGuard Ads🚫 No AdsNaviga senza banner e tracker pubblicitari.CleanBrowsing👨‍👩‍👧 FamilyFiltri rigorosi per contenuti non adatti ai minori.🛠️ Funzioni AvanzateSmart Backup: Salva la configurazione attuale prima di ogni modifica.Panic Button: Ripristino istantaneo ai DNS automatici (DHCP).DNS Flush: Svuota automaticamente la cache di Windows per rendere le modifiche effettive.Log integrato: Monitora ogni operazione in tempo reale direttamente dalla GUI.📦 Cosa troverai nel repository?FabDNS_Changer.ps1: Il cuore del progetto. Codice puro, leggibile riga per riga.Launcher.vbs: Script per avviare il tool con privilegi elevati nascondendo la console.Resources: Icone e asset grafici per un'esperienza desktop completa.🤝 ContribuireIl progetto è Fabianator-powered ma aperto a tutti!Se hai suggerimenti, vuoi aggiungere un provider DNS o migliorare la GUI:Fai un Fork del progetto.Crea un Branch per la tua feature.Apri una Pull Request.⭐ Supporta il progettoSe FabDNS ti è stato utile, lascia una stella su GitHub! Aiuta il progetto a crescere e a raggiungere altri utenti.
+# 🛡️ FabDNS Changer v2.0
+### *Modern, Open Source & Lightweight DNS Switcher for Windows*
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PowerShell](https://img.shields.io/badge/Language-PowerShell-blue.svg)](https://microsoft.com/powershell)
+[![Windows](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078d4.svg)]()
 
-### Screenshot
+Ciao a tutti! Vi presento **FabDNS Changer v2.0**, un progetto nato dalla filosofia **Fabianator**: potenza, trasparenza e un'interfaccia moderna. È un DNS Changer scritto interamente in PowerShell con una GUI in WPF pulita e reattiva.
 
-<img width="426" height="600" alt="Screenshot-02" src="https://github.com/user-attachments/assets/5d110d80-1fc7-45af-8ce9-9c97f8994161" />
-<img width="426" height="600" alt="Screenshot-01" src="https://github.com/user-attachments/assets/5a4e92a1-65a3-4103-b1e3-aae37eb43921" />
+> [!IMPORTANT]
+> **Il progetto è 100% OPEN SOURCE**: Niente EXE, niente codice offuscato, nessun tracker o telemetria. Solo codice leggibile e verificabile riga per riga.
+
+---
+
+## ✨ Caratteristiche Principali
+
+* 🎨 **Interfaccia Moderna:** GUI in WPF con tema scuro ed effetti glow soft.
+* 🚀 **Performance:** Avvio rapido con ricerca delle interfacce di rete asincrona (niente lag).
+* 👻 **Modalità Stealth:** Avvio tramite launcher VBS per nascondere la finestra di PowerShell.
+* 🛡️ **Privilegi Elevati:** Gestione automatica dell'esecuzione come Amministratore.
+* 🔄 **Manutenzione:** Pulizia automatica della cache DNS (Flush) ad ogni cambio.
+
+---
+
+## 🌐 DNS Supportati
+
+Scegli il profilo ideale con un click (include descrizioni informative nei tooltip):
+
+| Provider | Focus | Caratteristiche |
+| :--- | :--- | :--- |
+| **Cloudflare** | ⚡ Velocità | Senza log, prestazioni globali al top. |
+| **Google** | 🌍 Stabilità | Il più affidabile e resiliente al mondo. |
+| **Ibrido** | 🏆 **Consigliato** | Unisce l'affidabilità di Google alla velocità di Cloudflare. |
+| **Quad9** | 🔒 Sicurezza | Blocco automatico di domini malevoli e phishing. |
+| **AdGuard Ads** | 🚫 No Ads | Blocca pubblicità e tracker a livello DNS. |
+| **AdGuard Family** | 👨‍👩‍👧 Famiglia | Include SafeSearch e blocco contenuti per adulti. |
+| **CleanBrowsing** | 🛡️ Filtri | Ottimo per la protezione dei minori. |
+| **OpenDNS** | ⚙️ Controllo | Protezione base con filtri personalizzabili. |
+
+---
+
+## ⚡ Quick Start (PowerShell One-Liner)
+
+Non vuoi scaricare l'intero repository? Copia e incolla questo comando in **PowerShell (come Amministratore)** per avviare la versione standalone:
+
+```powershell
+iex (Invoke-RestMethod [https://raw.githubusercontent.com/Fabianator-Script/FabDNSChanger/main/FabDNS_Changer.ps1](https://raw.githubusercontent.com/Fabianator-Script/FabDNSChanger/main/FabDNS_Changer.ps1))
